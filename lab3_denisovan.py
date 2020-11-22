@@ -269,10 +269,10 @@ principalComponents = pca.fit_transform(data)
 PCAdf = pd.DataFrame(data = data)
 datapoints = PCAdf.values
 methods_, labels_Kmedoids = kmedoids(datapoints, k, 2)
-drawClusters(X, labels_Kmedoids, k, 'Неиеархический метод') # рисуем кластеризацию с помощью неиерархического метода
+drawClusters(X, labels_Kmedoids, k, 'Неиерархический метод') # рисуем кластеризацию с помощью неиерархического метода
 result(X, y, labels_Kmedoids)
 
-drawClusters(X, labels_AClusters, k, 'Иеархический агломеративный метод') # рисуем кластеризацию с помощью иерархического агломеративного метода
+drawClusters(X, labels_AClusters, k, 'Иерархический агломеративный метод') # рисуем кластеризацию с помощью иерархического агломеративного метода
 result(X, y, labels_AClusters)
 
 samples = 1000
@@ -293,10 +293,10 @@ principalComponents = pca.fit_transform(data)
 PCAdf = pd.DataFrame(data = data)
 datapoints = PCAdf.values
 methods_, labels_Kmedoids = kmedoids(datapoints, k, 2)
-drawClusters(X, labels_Kmedoids, k, 'Неиеархический метод') # рисуем кластеризацию с помощью неиерархического метода
+drawClusters(X, labels_Kmedoids, k, 'Неиерархический метод') # рисуем кластеризацию с помощью неиерархического метода
 result(X, y, labels_Kmedoids)
 
-drawClusters(X, labels_AClusters, k, 'Иеархический агломеративный метод') # рисуем кластеризацию с помощью иерархического агломеративного метода
+drawClusters(X, labels_AClusters, k, 'Иерархический агломеративный метод') # рисуем кластеризацию с помощью иерархического агломеративного метода
 result(X, y, labels_AClusters)
 
 samples = 1000
@@ -317,10 +317,10 @@ principalComponents = pca.fit_transform(data)
 PCAdf = pd.DataFrame(data = data)
 datapoints = PCAdf.values
 methods_, labels_Kmedoids = kmedoids(datapoints, k, 2)
-drawClusters(X, labels_Kmedoids, k, 'Неиеархический метод') # рисуем кластеризацию с помощью неиерархического метода
+drawClusters(X, labels_Kmedoids, k, 'Неиерархический метод') # рисуем кластеризацию с помощью неиерархического метода
 result(X, y, labels_Kmedoids)
 
-drawClusters(X, labels_AClusters, k, 'Иеархический агломеративный метод') # рисуем кластеризацию с помощью иерархического агломеративного метода
+drawClusters(X, labels_AClusters, k, 'Иерархический агломеративный метод') # рисуем кластеризацию с помощью иерархического агломеративного метода
 result(X, y, labels_AClusters)
 
 samples = 1000
@@ -341,10 +341,10 @@ principalComponents = pca.fit_transform(data)
 PCAdf = pd.DataFrame(data = data)
 datapoints = PCAdf.values
 methods_, labels_Kmedoids = kmedoids(datapoints, k, 2)
-drawClusters(X, labels_Kmedoids, k, 'Неиеархический метод') # рисуем кластеризацию с помощью неиерархического метода
+drawClusters(X, labels_Kmedoids, k, 'Неиерархический метод') # рисуем кластеризацию с помощью неиерархического метода
 result(X, y, labels_Kmedoids)
 
-drawClusters(X, labels_AClusters, k, 'Иеархический агломеративный метод') # рисуем кластеризацию с помощью иерархического агломеративного метода
+drawClusters(X, labels_AClusters, k, 'Иерархический агломеративный метод') # рисуем кластеризацию с помощью иерархического агломеративного метода
 result(X, y, labels_AClusters)
 
 from sklearn.datasets import load_breast_cancer
@@ -368,10 +368,10 @@ principalComponents = pca.fit_transform(data)
 PCAdf = pd.DataFrame(data = data)
 datapoints = PCAdf.values
 methods_, labels_Kmedoids = kmedoids(datapoints, k, 2)
-drawClusters(X, labels_Kmedoids, k, 'Неиеархический метод') # рисуем кластеризацию с помощью неиерархического метода
+drawClusters(X, labels_Kmedoids, k, 'Неиерархический метод') # рисуем кластеризацию с помощью неиерархического метода
 result(X, y, labels_Kmedoids)
 
-drawClusters(X, labels_AClusters, k, 'Иеархический агломеративный метод') # рисуем кластеризацию с помощью иерархического агломеративного метода
+drawClusters(X, labels_AClusters, k, 'Иерархический агломеративный метод') # рисуем кластеризацию с помощью иерархического агломеративного метода
 result(X, y, labels_AClusters)
 
 from sklearn.datasets import load_wine
@@ -395,8 +395,8 @@ principalComponents = pca.fit_transform(data)
 PCAdf = pd.DataFrame(data = data)
 datapoints = PCAdf.values
 methods_, labels_Kmedoids = kmedoids(datapoints, k, 2)
-drawClusters(X, labels_Kmedoids, k, 'Неиеархический метод') # рисуем кластеризацию с помощью неиерархического метода
+drawClusters(X, labels_Kmedoids, k, 'Неиерархический метод') # рисуем кластеризацию с помощью неиерархического метода
 result(X, y, labels_Kmedoids)
 
-drawClusters(X, labels_AClusters, k, 'Иеархический агломеративный метод') # рисуем кластеризацию с помощью иерархического агломеративного метода
+drawClusters(X, labels_AClusters, k, 'Иерархический агломеративный метод') # рисуем кластеризацию с помощью иерархического агломеративного метода
 result(X, y, labels_AClusters)
